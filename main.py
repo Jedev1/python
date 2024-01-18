@@ -1,7 +1,7 @@
 cont=0
+print("faça seu login e senha para se cadastrar na nossa agência de viagens blue tour")
+print("obrigado pela preferência")
 while True:
-    print("faça seu login e senha para se cadastrar na nossa agência de viagens blue tour")
-    print("obrigado pela preferência")
     login=str(input("Digite o login: "))
     senha=str(input("Digite a senha: "))
     if(login=="admin"and senha=="admin"):
@@ -151,8 +151,7 @@ def pagamento():
              print("3 - escolheu segunda classe?")
              o3=int(input("digite a opção desejada:"))
              if(o3==1):
-                 
-             print("seu pagamento via cartão do debito foi de: {}".format(valor))
+                print("seu pagamento via cartão do debito foi de: {}".format(valor))
         elif(o==2):
             total=valor/1
             print("o valor via credito em 1X é: {}".format(total))
