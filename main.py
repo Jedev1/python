@@ -178,6 +178,8 @@ def pagamento():
             total12=valor/12
             print("o valor via credito em 12X é: {}".format(total12))
 
+def viagens():
+    print("alguma coisa")
 
    
    
